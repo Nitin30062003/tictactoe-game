@@ -4,7 +4,7 @@ $blue: #4c43d4;
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: $blue;
+  background-color: black;
   color: #fff;
   padding: 0;
   margin: 0;
@@ -68,8 +68,10 @@ button {
 }
 
 .status-message {
+  margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 1.2rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
   font-weight: lighter;
   span {
     font-weight: normal;
@@ -100,10 +102,11 @@ button {
       border-bottom: none;
     }
     .square {
-      width: 80px;
-      height: 80px;
+      width: 150px;
+      height: 150px;
       border-right: 2px solid #fff;
-      font-size: 2.5rem;
+      font-size: 5rem;
+      color: rgb(44, 238, 241);
       padding: 0;
       overflow: hidden;
       transition: all 0.2s;
